@@ -1,7 +1,7 @@
 ﻿using Dragon_s_Way_Logic;
 
 Console.WriteLine("*** Dragon's Way ***\n");
-var game = new Game(10, "\"→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→");
+var game = new Game(10, "\"→→→↓↓↓→→→↓↓↓→→→→→→→→→↓→→→→→→");
 Console.BackgroundColor = ConsoleColor.Blue;
 Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine(game);
@@ -15,3 +15,4 @@ else
     Console.WriteLine("The dragon die... sorry");
 }
 //"→→→↓↓↓→→→↓↓↓→→→→→→→→→↓→→→→→→"
+//→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→

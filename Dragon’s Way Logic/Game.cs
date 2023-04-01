@@ -61,7 +61,7 @@ namespace Dragon_s_Way_Logic
                 int i = 0;
                 for (; i < Route.Length; i++)
                 {
-                    if (!(column < N * 2))
+                    if (!(column < N * 2 - 1))
                     {
                         if (row == N -2)
                         {
